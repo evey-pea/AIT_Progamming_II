@@ -13,6 +13,7 @@
 * [ ] Do Tutorial 1 questions 1 and 2
 * [ ] John will send you Tutorial Question 3 via email
 * [ ] John will send you a list of dates/times for a 1 hour "catch-up lesson due to today's technology issues via email
+* [ ] Upload three tutorial solutions as a single .cpp file via Canvas
 
 ## Tutorial questions
 
