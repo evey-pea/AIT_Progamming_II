@@ -15,8 +15,8 @@
   * [ ] Read second file
   * [ ] Read third file
 * [x] Do Tutorial 1 questions 1 and 2
-* [ ] John will send you Tutorial Question 3 via email
-* [ ] John will send you a list of dates/times for a 1 hour "catch-up lesson due to today's technology issues via email
+* [x] John will send you Tutorial Question 3 via email
+* [x] John will send you a list of dates/times for a 1 hour "catch-up lesson due to today's technology issues via email
 * [ ] Upload three tutorial solutions as a single .cpp file via Canvas
 
 ## Tutorial questions
@@ -35,7 +35,7 @@ Please enter your student id: 1234
 1234 Kriss
 ```
 
-**Solution**
+#### Solution 1
 
 ```c++
 #include <iostream>
@@ -90,7 +90,7 @@ Address of name: 0012FF60
 Address of  family name: 0012FC80
 ```
 
-**Solution**
+#### Solution 2
 
 ```c++
 #include <iostream>
@@ -133,7 +133,24 @@ void main() {
 
 ### Question 3
 
-TBA
+#### Integers
+- Define an array of 5 integers - assign them some arbitrary values.
+- Display the value of each element, and the location (address) of each element.
+- Based on these addresses, what is the length of each element ? (In both hex and decimal.)
+- Is this what you expected ?
+
+#### Doubles
+- Define an array of 5 doubles - assign them some arbitrary values.
+- Display the value of each element, and the location (address) of each element.
+- Based on these addresses, what is the length of each element ? (In both hex and decimal.)
+- Is this what you expected ?
+
+#### Strings
+
+- Define an array of 4 strings - assign them some arbitrary values.
+- Display the value of each element, and the location (address) of each element.
+- Based on these addresses, what is the length of each element ? (In both hex and decimal.)
+- Is this what you expected ?
 
 **Solution**
 
