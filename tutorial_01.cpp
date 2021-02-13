@@ -81,8 +81,7 @@ void integerArray(){
 	each of the memory addresses by 4 bytes in the output of the above code.
 	
 	This is what I expected as the length of an integer memory space is 32 bits
-	(4x bytes, each byte being 8 bits). Additionaly many C++ reference materials
-	refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	(4x bytes, each byte being 8 bits).
 	*/
 }
 
@@ -109,7 +108,8 @@ void doublesArray(){
 
 	This is what I expected as the length of an doubles memory space is 64 bits
 	(8x bytes, each byte being 8 bits). Additionaly many C++ reference materials
-	refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	refer to a standard length integer as being 4 bytes; such as this one: 
+	https://www.geeksforgeeks.org/c-data-types/
 	*/
 }
 
