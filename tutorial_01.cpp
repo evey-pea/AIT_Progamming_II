@@ -1,6 +1,7 @@
 // Tutorial One Single File Submission
 // Student: Evelyn Paplauskas
-// A full explanation of this file can be read online at: https://github.com/evey-pea/AIT_Progamming_II/blob/main/notes_Week_1.md
+// A full explanation of this file can be read online at: 
+// https://github.com/evey-pea/AIT_Progamming_II/blob/main/notes_Week_1.md
 
 #include <iostream>
 #include <string>
