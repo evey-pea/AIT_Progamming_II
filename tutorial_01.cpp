@@ -81,7 +81,9 @@ void integerArray(){
 	each of the memory addresses by 4 bytes in the output of the above code.
 	
 	This is what I expected as the length of an integer memory space is 32 bits
-	(4x bytes, each byte being 8 bits).
+	(4x bytes, each byte being 8 bits).Additionaly many C++ reference materials
+	refer to a standard length integer as being 4 bytes; such as this one: 
+	https://www.geeksforgeeks.org/c-data-types/
 	*/
 }
 
@@ -107,12 +109,11 @@ void doublesArray(){
 	above code.
 
 	This is what I expected as the length of an doubles memory space is 64 bits
-	(8x bytes, each byte being 8 bits). Additionaly many C++ reference materials
-	refer to a standard length integer as being 4 bytes; such as this one: 
-	https://www.geeksforgeeks.org/c-data-types/
+	(8x bytes, each byte being 8 bits).
 	*/
 }
 
+// Question 3 - String Array function; called in question3 function
 void stringArray(){
     // String Array initialisation
 	std::string colour[4] = { "Red", "Orange", "Yellow", "Green" };
@@ -160,7 +161,7 @@ void questionThree(){
 }
 
 int main() {
-	
+	// Execute each question in order
 	questionOne();	
 	questionTwo();
 	questionThree();
