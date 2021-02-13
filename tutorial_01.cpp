@@ -74,8 +74,15 @@ void integerArray(){
 		cout << "Address     : "<< &a[i] << endl;
 		cout << "Value Size  : "<< sizeof(a[i])  << endl << endl;
 	}
-	// The length of each integer element in decimal and hex is '4' bytes. This is cross confirmed with the use of the 'sizeof()' method and the incrementing of each of the memory addresses by 4 bytes in the output of the above code.
-	// This is what I expected as the length of an integer memory space is 32 bits (4x bytes, each byte being 8 bits). Additionaly many C++ reference materials refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	/*
+	The length of each integer element in decimal and hex is '4' bytes. This is
+	cross confirmed with the use of the 'sizeof()' method and the incrementing of
+	each of the memory addresses by 4 bytes in the output of the above code.
+	
+	This is what I expected as the length of an integer memory space is 32 bits
+	(4x bytes, each byte being 8 bits). Additionaly many C++ reference materials
+	refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	*/
 }
 
 // Question 3 - Doubles Array function; called in question3 function
@@ -93,8 +100,16 @@ void doublesArray(){
 		cout << "Address     : "<< &b[i] << endl;
 		cout << "Value Size  : "<< sizeof(b[i])  << endl << endl;
 	}
-	// The length of each doubles element in decimal is '8' bytes and in hex '08' bytes. This is cross confirmed with the use of the 'sizeof()' method and the incrementing of each of the memory addresses by 8 bytes in the output of the above code.
-	// This is what I expected as the length of an doubles memory space is 64 bits (8x bytes, each byte being 8 bits). Additionaly many C++ reference materials refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	/*
+	The length of each doubles element in decimal is '8' bytes and in hex '08'
+	bytes. This is cross confirmed with the use of the 'sizeof()' method and the
+	incrementing of each of the memory addresses by 8 bytes in the output of the
+	above code.
+
+	This is what I expected as the length of an doubles memory space is 64 bits
+	(8x bytes, each byte being 8 bits). Additionaly many C++ reference materials
+	refer to a standard length integer as being 4 bytes; such as this one: https://www.geeksforgeeks.org/c-data-types/
+	*/
 }
 
 void stringArray(){
@@ -112,11 +127,24 @@ void stringArray(){
 		cout << "Value Size  : "<< sizeof(colour[i])  << endl << endl;
 	}
 	/* 
-    The length of each doubles element in decimal is 32 bytes and hex is '20'. This is cross confirmed with the use of the 'sizeof()' method and the incrementing of each of the memory addresses by 32 bytes in the output of the above code. */
-	/*
-    This is different to what I expected. I had been expecting each element to be the sum of the number of characters for each string element multiplied by 4 bytes, as each char has a size of 4 bytes. For the first element, I was expecting the element "Red" to be only 12 bytes; "Orange" and "Yellow" to be 24 bytes each "Green" to be 20 bytes.  
+    The length of each doubles element in decimal is 32 bytes and hex is '20'.
+	This is cross confirmed with the use of the 'sizeof()' method and the
+	incrementing of each of the memory addresses by 32 bytes in the output of the
+	above code.
+	
+    This is different to what I expected. I had been expecting each element to be
+	the sum of the number of characters for each string element multiplied by 4
+	bytes, as each char has a size of 4 bytes. For the first element, I was
+	expecting the element "Red" to be only 12 bytes; "Orange" and "Yellow" to be
+	24 bytes each "Green" to be 20 bytes.  
     
-    Since 12 + 24 + 24 + 20 = 80, it is well under the array size of 128 bytes (4 elements at 32 bytes each) reported by the 'sizeof()' method. This leads me to believe that since 32 is the lowest base 2 number above the largest element size of 24, the memory allowed for each element is 32 bytes. Should a single string element be above 32 bytes, then I would hypothesise that each array element will be afforded memory allocated in byte increments that allow for the largest element to be stored.
+    Since 12 + 24 + 24 + 20 = 80, it is well under the array size of 128 bytes (4
+	elements at 32 bytes each) reported by the 'sizeof()' method. This leads me
+	to believe that since 32 is the lowest base 2 number above the largest
+	element size of 24, the memory allowed for each element is 32 bytes. Should a
+	single string element be above 32 bytes, then I would hypothesise that each
+	array element will be afforded memory allocated in byte increments that allow
+	for the largest element to be stored.
     */
 }
 
