@@ -34,7 +34,7 @@
 * [x] Do Tutorial 1 questions 1 and 2
 * [x] John will send you Tutorial Question 3 via email
 * [x] John will send you a list of dates/times for a 1 hour "catch-up lesson due to today's technology issues via email
-* [ ] Upload three tutorial solutions as a single .cpp file via Canvas
+* [x] Upload three tutorial solutions as a single .cpp file via Canvas
 
 ## Tutorial questions
 
@@ -68,13 +68,13 @@ void main() {
 	int studentId;
 	string firstName;
 
-	//Prompt to input your student ID
-	cout << "Please enter your student ID number:" << endl;
-	cin >> studentId;
-
 	//Prompt to input your name
 	cout << "Please enter your first name:" << endl;
 	cin >> firstName;
+
+	//Prompt to input your student ID
+	cout << "Please enter your student ID number:" << endl;
+	cin >> studentId;
 
 	//Print out your full name
 	cout << studentId << " " << firstName << endl;
@@ -291,13 +291,13 @@ void questionOne(){
 	int studentId;
 	string studentName;
 
-	//Prompt to input your student ID
-	cout << "Please enter your student ID number:" << endl;
-	cin >> studentId;
-
 	//Prompt to input your name
 	cout << "Please enter your first name:" << endl;
 	cin >> studentName;
+
+	//Prompt to input your student ID
+	cout << "Please enter your student ID number:" << endl;
+	cin >> studentId;
 
 	//Print out your full name
 	cout << studentId << " " << studentName << endl << endl;

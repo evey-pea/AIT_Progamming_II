@@ -16,13 +16,13 @@ void questionOne(){
 	int studentId;
 	string studentName;
 
-	//Prompt to input your student ID
-	cout << "Please enter your student ID number:" << endl;
-	cin >> studentId;
-
 	//Prompt to input your name
 	cout << "Please enter your first name:" << endl;
 	cin >> studentName;
+
+	//Prompt to input your student ID
+	cout << "Please enter your student ID number:" << endl;
+	cin >> studentId;
 
 	//Print out your full name
 	cout << studentId << " " << studentName << endl << endl;
